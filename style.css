@@ -106,20 +106,10 @@ body {
     color: var(--clr-neutral-grey);
     background: var(--clr-primary-cyan);
     position: relative;
-    background-image: url(./images/bg-pattern-bottom.svg),
-    url(./images/bg-pattern-top.svg);
-    background-repeat: no-repeat;
-    background-position: bottom -350px right -500px, top -350px left -500px;
-    background-size: 700px, 700px;
-}
-
-@media screen and (min-width: 376px) {
-    body {
-        background-size: contain, contain;
-        background-position: bottom -350px right -150px, top -350px left -150px;
-
-    }
-}
+    background: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
+    background-repeat: no-repeat, no-repeat;
+    background-color: hsl(185, 75%, 39%);}
 
 span {
     font-weight: var(--fw-bold);
